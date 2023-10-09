@@ -31,10 +31,10 @@
             <!-- <img src="images/elena2.png " alt="Elena "> -->
 
             <h3>MAMP Screenshot</h3>
-             <img class="screen"  src="images/mamp.png" alt="MAMP">
+             <img class="screen"  src="images/mamp1.png" alt="MAMP">
              
              <h3>Error Screenshot</h3>
-             <img class="error" src="images/error.png" alt="Error">
+             <img class="error" src="images/error1.png" alt="Error">
 
         </main>
 
@@ -42,10 +42,10 @@
             <h2>Weekly Class Exercises</h2>
             <h3>Week 2</h3>
             <ol>
-                <li><a href="var.php">var.php</a></li>
-                <li><a href=" ">var2.php</a></li>
-                <li><a href=" ">something.php</a></li>
-                <li><a href=" ">something.php</a></li>
+                <li><a href="weeks/week2/var.php">var.php</a></li>
+                <li><a href="weeks/week2/vars2.php ">vars2.php</a></li>
+                <li><a href="weeks/week2/currency-logic.php">currency-logic.php</a></li>
+                <li><a href="weeks/week2/currency.php ">currency.php</a></li>
 
             </ol>
 
