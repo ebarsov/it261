@@ -1,0 +1,416 @@
+/* styles for  website_correction portal page */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background:ghostwhite;
+}
+
+body.index header {
+    background-color:rgb(235, 235, 244);
+}
+
+body.daily header {
+    background-color: rgb(182, 203, 232);
+}
+
+body.daily {
+    background-color: whitesmoke;
+}
+
+.current {
+    color: red;
+}
+
+.inner-header {
+    max-width: 1200px;
+    margin: 0px auto; 
+    background-color:lavender;
+    overflow: hidden; 
+}
+
+#logo {
+    width:200px;
+    float:left;
+}
+
+
+/* nav {
+    height: 60px;
+    /* background: lightseagreen; */
+    /* background:lightsteelblue;
+    line-height: 60px;
+    margin-bottom: 20px;
+} */
+
+nav ul {
+    float:right;
+    margin-top: 30px;
+    list-style-type: none;
+}
+
+nav li {
+    float: left;
+    margin-left: 30px;
+    /* width: 16.66%;
+    text-align: center;
+    list-style-type: none;*/
+}
+
+nav a {
+    color:rgb(19, 106, 193);
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+#wrapper {
+    max-width: 1200px;
+    margin: 20px auto;
+    clear: both;
+    overflow: hidden;
+}
+
+#hero {
+    /* height:400px; */
+    /* background:wheat; */
+    margin-bottom:20px;
+}
+
+#hero.index {
+    background-color: white;
+}
+
+/* #hero.img  {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+} */
+
+
+main {
+    width: 62%;
+    float: left;
+}
+
+main.index {
+    background-color: whitesmoke;
+}
+
+aside {
+    width: 35%;
+    float: right;
+    margin-top: 30px;
+}
+
+aside.index {
+    background-color:white;
+    margin-top: 20px;
+}
+
+aside li {
+    margin-bottom:10px;
+}
+
+
+.right {
+    float: right;
+    margin-left: 30px;
+}
+
+img.right {
+     max-width:30%;
+}
+
+
+footer { 
+    height:60px;
+     line-height: 60px;
+    background:#c7c4c4;
+    clear:both;
+    margin-bottom:10px;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+ footer li {
+    justify-content: center;
+    margin: 0 20px;
+} 
+
+/* styles for about.php */
+main.about {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-left: 160px;
+}
+
+.about h1, .about h2 {
+    text-align: center;
+    color: rgb(72, 138, 140);
+}
+
+img.about-screenshot {
+    display: block;
+     margin: 20px auto;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    height: 600px;
+    border: 1px solid #ccc;
+    display: block;  
+}
+
+
+/* styles for gallery.php */
+#gallery, main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+    }
+
+    h1 {
+        margin-bottom: 20px; 
+        text-align: center;
+    }
+
+    table {
+        border: 1px solid red;
+        border-collapse: collapse;
+        margin: 20px; 
+        width: 100%;
+    }
+
+    td {
+        border: 1px solid red;
+        text-align: center;
+        padding: 10px;
+    }
+
+    #gallery img {
+        width: 150px; 
+        height: 150px; 
+        object-fit: cover;
+    }
+
+/* styles for celebrities.php */
+#celebrities {
+    text-align: center;
+}
+
+#celebrities main {
+    max-width: 800px; 
+    margin: 0 auto; 
+    text-align: left;
+}
+
+#celebrities main h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(222, 162, 84);
+}
+
+#celebrities p {
+    text-align: center;
+    margin-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#celebrities main h2 {
+    color: rgb(188, 72, 72); 
+    margin-bottom: 10px;
+}
+
+#celebrities ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#celebrities li {
+    margin-bottom: 5px;
+}
+
+#celebrities a {
+    color: rgb(12, 140, 183); 
+}
+
+
+ /* styles for celebrities-view.php */
+
+ #celebrities-view body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+#celebrities-view #wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#celebrities-view {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#celebrities-view main {
+    width: 55%;
+    margin-bottom: 20px;
+    float: left;
+}
+
+#celebrities-view main h1 {
+    color: brown;
+}
+
+#celebrities-view ul {
+    list-style: none;
+}
+
+#celebrities-view li {
+    margin-bottom: 10px;
+}
+
+#celebrities-view aside {
+    float: right;
+    width: 34%;
+    margin-top: 40px;
+}
+
+#celebrities-view img {
+    /* max-width: 100%; */
+    width: 350px;
+    height: 350px;
+    /* height: auto; */
+    border: 1px solid #ccc;
+    display: block;  
+    margin-top: 40px;
+}
+
+#celebrities-view aside h3 {
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom:10px ;
+}
+
+#celebrities-view footer {
+    background-color: #807979;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+#celebrities-view footer ul {
+    list-style: none;
+}
+
+#celebrities-view footer ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+#celebrities-view a {
+    /* color:rgb(94, 94, 190); */
+    text-decoration: none;
+    color: #007bff;
+}
+
+#celebrities-view a:hover {
+    text-decoration: underline;
+    color:rgb(94, 94, 190);
+} 
+
+#celebrities-view figcaption {
+    margin-top: 10px;
+    font-style: italic;
+    color: #666;
+}
+
+
+/* typography */
+
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    margin: 20px 0;
+    
+}
+
+h2 {
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 20px;
+    color:rgb(188, 72, 72);
+}
+
+h1, h2, h3 {
+    color:burlywood;
+    margin-left: 10px;
+}
+
+h1.daily, h2.daily, h3.daily {
+    color: brown;
+    margin-bottom: 10px;
+ }
+
+a {
+    color:rgb(12, 140, 183);
+}
+
+
+main h2, aside h2 {
+    line-height: 1em;
+    text-align: left;
+}
+
+main h3 {
+    padding-top: 50px;
+    text-align: center;
+    line-height: 0.3em;
+    font-size:20px ;
+}
+
+aside h2 {
+    margin-top: 10px;
+}
+
+aside h3 {
+    margin-bottom:10px;
+    
+}
+
+p {
+    margin-bottom: 20px;
+    line-height: 1.8em;
+}
+
+p.index {
+    /* margin-bottom: 20px;*/
+    text-align: justify;
+    padding: 15px;
+}
+
+p.daily {
+    margin-bottom: 20px;
+    text-align: justify;
+}
